@@ -1,0 +1,36 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    color: #1e1e1e;
+}
+
+.main-container{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 10px;
+    height: 100vh;
+}
+
+.header{
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    
+}
+
+.container{
+    border: solid;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
