@@ -45,11 +45,24 @@ a{
     border-width: 1px;
     flex: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
 
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#course-name-1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.section{
+    border: solid;
+    width: 50vw;
 }
