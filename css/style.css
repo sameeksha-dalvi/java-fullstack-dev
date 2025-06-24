@@ -65,4 +65,9 @@ a{
 .section{
     border: solid;
     width: 50vw;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 1px;
+    background-color:#10b981;
+    color: #fefefe;
 }
