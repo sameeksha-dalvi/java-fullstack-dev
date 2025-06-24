@@ -37,8 +37,10 @@ a{
 }
 
 #logo{
-   
+   width: auto;
+   height: 100px;
 }
+
 .container{
     border-bottom: solid;
     border-color: #1e1e1e;
