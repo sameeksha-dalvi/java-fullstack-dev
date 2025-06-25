@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(0, 0%, 100%);
+    background-color:#fefefe;
     color: #1e1e1e;
     margin: 0;
 }
@@ -50,7 +50,7 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .footer{
@@ -72,4 +72,10 @@ a{
     border-width: 1px;
     background-color:#10b981;
     color: #fefefe;
+    box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+}
+
+.topic{
+    border-bottom: solid;
+    padding-bottom: 10px;
 }
