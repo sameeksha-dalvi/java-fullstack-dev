@@ -30,7 +30,18 @@ body{
     justify-content: space-evenly;
     gap: 50px;
     list-style: none;
+    color: #10b981;
+    margin-right: 20px;
 }
+
+.navigation-links > li > a:visited{
+    color: inherit;
+}
+
+.navigation-links > li > a:link{
+    color: #10b981;
+}
+
 
 a{
  text-decoration: none;
@@ -78,4 +89,12 @@ a{
 .topic{
     border-bottom: solid;
     padding-bottom: 10px;
+}
+
+.course-lesson > a:visited{
+    color: inherit;
+}
+
+.course-lesson{
+    font-size: 20px;
 }
